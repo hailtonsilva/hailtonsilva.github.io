@@ -1,7 +1,7 @@
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 name: "Hailton &bull; UI and UX Designer"
 description: "UI and UX Designer"
-url: "http://hailton.com"
+url: "http://hailtonsilva.github.io/"
 markdown: redcarpet #rdiscount alternative
 paginate: 10 # pagination basted on number of posts
 permalink: pretty
