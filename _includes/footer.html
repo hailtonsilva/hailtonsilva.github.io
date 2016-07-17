@@ -1,0 +1,50 @@
+<h2 class="text-center">Do you have a project in mind?</h2>
+    <p class="text-center">
+      <a href="#" data-reveal-id="ModalContact"class="button">Hire me!</a>
+    </p>
+    
+<!--Contact Form (Modal)-->
+    <div id="ModalContact" class="reveal-modal" data-reveal>
+      <!--getsimpleform ContactForm-->
+      <form action="http://getsimpleform.com/messages?form_api_token=9a54dcda6badef2b8485a40f8c898899" method="post">
+          <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+          <input type='hidden' name='redirect_to' value='http://hailton.com/thank-you' />
+          <!-- the input fields -->
+          <input type='text' placeholder="Name" name='Name' />
+          <input type='email' placeholder="E-mail" name='E-mail' />
+          <textarea name="message" type="text" class="form-control" id="message" placeholder="Message" rows="10"></textarea>
+          <input type='submit' class="button" value='Send' />
+      </form>
+    </div>
+
+<footer>
+  <!-- Footer -->
+    <div class="row" id="tb-curve-bottom">
+    </div>
+    <footer class="footer-bloco">     
+      <div class="row">       
+        <p class="text-center">
+        &copy; Copyright 2011 - {{ site.time | date:"%Y" }} | Hailton Silva</p>
+      </div>
+    </footer>
+
+    <!-- Javascripts
+    ================================================== -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.0.1/js/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.0.1/js/foundation.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.0.1/js/foundation/foundation.reveal.js"></script>
+    <script>
+      $(document).foundation();
+        // Mouseover-p-o-portf
+        $(".medium-6 img").hover(function(){
+            $(this).animate({ opacity: "0.4" });
+        }, function() {
+            $(this).animate({ opacity: "1" });
+        });
+    </script>
+      <!-- Analitics code -->
+      <a title="Google Analytics Alternative" href="http://clicky.com/100802950"><img alt="Google Analytics Alternative" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
+      <script src="//static.getclicky.com/js" type="text/javascript"></script>
+      <script type="text/javascript">try{ clicky.init(100802950); }catch(e){}</script>
+      <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100802950ns.gif" /></p></noscript>
+</footer>

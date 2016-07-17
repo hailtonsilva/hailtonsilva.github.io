@@ -1,0 +1,10 @@
+# robotstxt.org/
+
+User-agent: *
+Crawl-delay: 10
+
+
+
+# Files
+Disallow: /_config.yml
+Disallow: /humans.txt
