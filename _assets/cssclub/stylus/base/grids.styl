@@ -1,0 +1,58 @@
+.container
+	&.spaced
+		padding 2rem 0
+	width: calc(100% - 10%)
+	margin 0 auto
+
+
+.grid, .row
+	display flex
+	flex-wrap: wrap;
+	&.top
+			align-items flex-start
+	&.center-horizontal
+			align-items center
+	&.bottom
+			align-items flex-end
+	&.stretch
+			align-items stretch
+	&.baseline
+			align-items baseline
+	&.left
+			justify-content flex-start
+	&.center
+			justify-content center
+	&.right
+			justify-content flex-end
+	&.between
+			justify-content space-between
+	&.around
+			justify-content space-around
+
+// Columns
+.column, .col
+	box-sizing border-box
+	flex-shrink 0
+	position:  relative
+	padding: 1rem 0;
+	&.no-space, &.no-pd
+		padding: 0;
+	&.fill
+		width 0
+		min-width 0
+		flex-grow 1
+	for value in 1..12
+		&.x-small-{value}, &.xs{value} //will never stack
+			width 100%*(value/12)
+		&.small-{value}, &.s{value} //will stack at less than mobile size
+			width 100%*(value/12)
+			+to-width(mobile-size)
+				width 100%
+		&.medium-{value}, &.m{value} //will stack at less than tablet size
+			width 100%*(value/12) 	
+			+to-width(tablet-size)
+				width 100%
+		&.large-{value}, &.l{value} //will stack at less than desktop size
+			width 100%*(value/12) 	
+			+to-width(desktop-size)
+				width 100%

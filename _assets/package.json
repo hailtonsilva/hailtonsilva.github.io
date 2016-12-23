@@ -1,0 +1,16 @@
+{
+  "name": "hailton",
+  "version": "0.1.0",
+  "description": "Portfolio",
+  "main": "hailton.styl",
+  "scripts": {
+    "start": "stylus -u rupture -u nib -w hailton.styl -o ../css/cssclub.min.css"
+  },
+  "author": "Hailton Silva <hailtonsilva1@gmail.com>",
+  "dependencies": {},
+  "devDependencies": {
+    "nib": "^1.1.2",
+    "rupture": "^0.6.2",
+    "stylus": "^0.54.5"
+  }
+}

@@ -1,0 +1,21 @@
+# Meta
+
+title:         "Hailton Silva | Frontend Developer"
+description:   "Portefólio pessoal"
+
+# Build
+
+markdown:      kramdown
+permalink:     pretty
+url:           http://hailtonsilva.github.io
+
+# Variables
+
+# github:        https://github.com/hailtonsilva
+# version:       0.3.0
+
+# Jekyll
+
+permalink: /:title
+# excerpt_separator: <!--more--> # Content writed befor this simbol will be hidden on single post page
+

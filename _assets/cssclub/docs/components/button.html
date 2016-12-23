@@ -1,0 +1,58 @@
+---
+title: Buttons
+subtitle: Buttons with different colors and sizes
+layout: default
+nav: components
+
+buttonClasses:
+  primary: red
+  info: blue
+  success: green
+  warning: orange
+  danger: red
+---
+
+{% include subnav-components.html %}
+
+<div class="container">
+
+<h3 class="title">Basics</h3>
+<p>Buttons are used to represent actions and you can use it with any `html` tag you 
+want including `<a>`, `<p>` and <code>div</code> tags</p>
+
+<div class="row">
+  <div class="col s6">
+    {% for classname in page.buttonClasses %}
+      <a href="#" class="button {{classname[0]}}"> {{classname[0]}}</a>
+    {% endfor %}
+    <p>
+{% highlight html %}
+{% for classname in page.buttonClasses %}
+<a href="#" class="button {{classname[0]}}"> {{classname[0]}}</a>
+{% endfor %}
+{% endhighlight %}
+    </p>
+  </div>
+</div>
+
+
+
+
+<div class="row">
+  <h3 class="title">
+    Outline colors
+  </h3>
+  <div class="col s12">
+{% for classname in page.buttonClasses %}
+  <a href="#" class="button {{classname[0]}} outline"> {{classname[0]}}</a>
+{% endfor %}
+  </div>
+</div>
+
+
+<h2 class="title">
+  Sizes
+</h2>
+TODO
+
+</div>

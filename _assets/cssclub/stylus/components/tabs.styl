@@ -1,0 +1,42 @@
+.tabs
+	> *, > ul
+		display flex
+		line-height: 2rem
+		list-style: none;
+		> * > * // li > a
+			padding 6px 12px
+			text-decoration none
+			line-height: 2rem
+			@extends .white
+			&:hover
+				background alpha(black, 0.2)
+			.active
+				background white
+				color primary
+		> .active // li.active > a
+			> *
+				background white
+				color primary
+	&.fixed
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 2;
+		width: 100%;
+		padding-top: .5rem;
+		background: primary
+
+
+.tabs-content //, .tabs-content > *
+	// display flex
+	line-height: 2rem
+	background: white
+	color: black
+	font-weight: bold
+	border-bottom 1px solid #ddd
+	list-style: none;
+	a
+		color: black
+	// > *
+	// 	padding 6px 12px
+		

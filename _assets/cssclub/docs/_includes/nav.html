@@ -1,0 +1,37 @@
+<nav class="tabs">
+  <ul class="container">
+    <li {% if page.nav == 'start' %}class="active"{% endif %}>
+      <a href="#start">Getting Started</a>
+    </li>
+    <li {% if page.nav == 'layout' %}class="active"{% endif %}>
+      <a href="/layout/grid">Layout</a>
+    </li>
+    <li {% if page.nav == 'typography' %}class="active"{% endif %}>
+      <a href="/typography/headings">Typography</a>
+    </li>
+    <li {% if page.nav == 'components' %}class="active"{% endif %}>
+      <a href="#components">Components</a>
+    </li>
+    <li {% if page.nav == 'helpers' %}class="active"{% endif %}>
+      <a href="/helpers">Helpers</a>
+    </li>
+  </ul>
+
+  <div id="subtabcomponents" class="tabs-content">
+  <ul class="nav horizontal container">
+    <li>
+      <a href="/components/button">Buttons</a>
+    </li>
+    <li>
+      <a href="/components/cover">Cover</a>
+    </li>
+    <li>
+      <a href="/components/tabs">Tabs</a>
+    </li>
+    <li>
+      <a href="/components/modal">Modal</a>
+    </li>
+  </ul>
+</div>
+</nav>
+

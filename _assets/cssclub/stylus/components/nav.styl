@@ -1,0 +1,34 @@
+.nav
+  background: green
+  
+.horizontal
+  @extends .nav
+  display flex
+  background: white
+  color: primary
+  list-style: none
+  > a, > li > a
+    color: primary
+    text-decoration: none
+    padding 10px 12px
+    line-height 2.5rem
+    &:hover
+      // color alpha(primary, 0.5)
+      border-bottom: 2px solid alpha(primary, 0.5);
+
+.topbar
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+
+.sidenav, ul.sidenav
+  display flex
+  flex-direction: column
+  @extend .list-unstyled
+  > li > a
+    color: primary
+    text-decoration: none
+    line-height 2rem
+
+

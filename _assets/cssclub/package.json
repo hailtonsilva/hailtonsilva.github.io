@@ -1,0 +1,34 @@
+{
+  "name": "css.club",
+  "version": "0.1.0",
+  "description": "Unleash your creativity",
+  "main": "cssclub.styl",
+  "scripts": {
+    "start": "stylus -u rupture -u nib -w cssclub.styl -o css/cssclub.css",
+    "build": "stylus -u rupture -u nib -c cssclub.styl -o css/cssclub.min.css",
+    "docs":  "stylus -u rupture -u nib -w -c docs/docs.styl -o docs/css/docs.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hailtonsilva/css.club.git"
+  },
+  "keywords": [
+    "css",
+    "stylus",
+    "flexbox",
+    "responsive",
+    "framework"
+  ],
+  "author": "Hailton Silva <hailtonsilva1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hailtonsilva/css.club/issues"
+  },
+  "homepage": "https://github.com/hailtonsilva/css.club#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nib": "^1.1.2",
+    "rupture": "^0.6.2",
+    "stylus": "^0.54.5"
+  }
+}

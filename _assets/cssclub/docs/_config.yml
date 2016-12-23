@@ -1,0 +1,21 @@
+# Meta
+
+title:         "cssclub | Unleash your creativity"
+
+# Depends on
+markdown:      kramdown
+highlighter:   rouge
+
+kramdown:
+  auto_ids: true
+
+
+# Variables
+url:           http://hailtonsilva.github.io/cssclub
+github:        http://github.com/hailtonsilva/cssclub
+version:       0.1.0
+
+# Permalinks
+permalink:     pretty
+permalink: /:title
+

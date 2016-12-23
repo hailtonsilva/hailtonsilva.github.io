@@ -1,0 +1,33 @@
+doctype
+html
+	head
+		link(rel="stylesheet" href="/js/highlight.css")
+		link(rel="stylesheet" href="/main.css")
+	body
+		div.cover
+			.cover-body: .container
+				h1.center.bold: a(href="/") css.club
+				h2.like-h4 Unleash your creativity
+			.cover-foot 
+				nav.tabs
+					ul.container
+						li
+							a(href="/start") Getting Started
+						li
+							a(href="/grid") Grid
+						li
+							a(href="/typography") Typography
+						li
+							a(href="/components") Components
+						li
+							a(href="/helpers") Helpers
+		
+					
+		.container
+			!= yield
+
+	script(src='./js/highlight.pack.js')
+	<script>hljs.initHighlightingOnLoad();</script>
+	//- script(src='/js/jquery.jquery-2.2.4.min.js')
+	//- script(src='/js/jquery.particleground.min.js')
+	//- script(src='/js/scripts.js')

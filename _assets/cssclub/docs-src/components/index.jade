@@ -1,0 +1,38 @@
+- var buttons = ['primary','info','success','warning','danger']
+
+include ../_subnav/components.jade
+
+h1.title Buttons
+h5 Buttons with diferent colors and sizes
+hr
+
+h2.title Basics
+p Buttons are used to represent actions and you can use it with any <code>html</code> tag you 
+  | want including <code>#{"<a>"}</code>, <code>#{"<p>"}</code> and <code>#{"<div>"}</code> tags
+.grid.h-center
+  .column.small-6
+    div.button.primary .button.primary
+  .column.small-6
+    pre
+      code.html #{'<div class="button primary">div.button</div>'}
+hr
+
+h2.title Colors
+.group
+  for className in buttons
+    a(class='button '+className)
+      =className
+h2.title Outline colors
+.group
+  for className in buttons
+    a(class='button '+className+' outline')
+      ='outline'
+
+h2.title Sizes
+p.red: b TODO
+
+h2.title Disabled
+p.red: b TODO
+
+
+

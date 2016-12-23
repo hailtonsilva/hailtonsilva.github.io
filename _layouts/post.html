@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+  {% include nav.html %}
+
+  <div class="container spaced c-post bg-white">
+    <div class="proj-name text-center">{{ page.title }}</div>
+    {% if page.tag %}<div class="c-tags text-center">{{ page.tag }}</div>{% endif %}
+    <div class="text-center proj-status">
+      {% if page.link %}
+        <a href="http://{{ page.link }}" class="green" target="_blank">Visitar Site</a>
+        {% else %}
+        <div class="text-center">Site Offline</div>
+      {% endif %}
+    </div>
+    
+    {{ page.content }}
+    
+    {% if page.proj-info %}
+    <div style="margin: 10vw 0;">
+      {% for value in page.proj-info %}
+        <div class="grid center c-proj-info">
+          <div class="column x-small-6 text-right">
+              <h3>{{ value[0] }}</h3>       
+          </div>
+          <div class="column x-small-6 text-left">
+              <h3>{{ value[1] }}</h3>       
+          </div>
+        </div>    
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+
+
+  <!--{% include contact-block.html %}
+  <div class="grid">
+    {% for post in site.posts %}
+      <div class="column small-4 bg-red c-teaser">
+        <a class="c-img-w" href="{{ post.url }}">
+          <h2 class="title">{{ post.title }}</h2>
+          <img id="teaser-img" data-href="{{ post.url }}" class="c-img" src="/images/{{ post.image }}" alt="{{ post.title }}">
+        </a>
+      </div>
+    {% endfor %}
+  </div>-->
+
+  {% include footer.html %}
+</body>
+
+</html>

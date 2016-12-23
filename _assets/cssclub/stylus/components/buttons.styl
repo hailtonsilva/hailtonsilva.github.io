@@ -1,0 +1,46 @@
+
+// Specific Colors Hash pairs
+colors = {
+  primary: red,
+  info: blue,
+  success: green,
+  warning: orange,
+  danger: red
+}
+
+.button
+  padding: 0 1rem
+  border-radius .4rem
+  cursor: pointer
+  height: 2.3rem
+  display: inline-flex
+  align-items: center
+  text-decoration none
+  color gainsboro
+  background whitesmoke
+
+// Buttons classes {primary, success, etc}
+for class, color in colors
+  .{class}
+    background color
+    color white
+    @extends .button
+    &:hover,
+    &:focus
+      background darken(color, 15%)
+    &.outline
+      background none
+      border 1px solid color
+      color color
+      &:hover,
+      &:focus
+        color white
+        border 1px solid darken(color, 15%)
+        background darken(color, 15%)
+
+// Groups
+.group
+	// Button groups
+	[class*="button"]
+		margin 0 .15rem
+		@extends .button
