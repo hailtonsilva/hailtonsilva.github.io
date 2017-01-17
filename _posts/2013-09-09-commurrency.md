@@ -13,7 +13,7 @@ Uma vez que os Bancos cobram elevadas taxas nas operações cambiais, dois coleg
 João Madeira e Vladimir Augusto tiveram a ideia e necessidade de criar uma plataforma para ajudar os 
 utilizadores a poupar em taxas e comissões.
 
-![Commurrency Pages](/images/commurrency-pages.png)
+<!--![Commurrency Pages](/images/commurrency-pages.png)-->
 
 "Em Commurrency.org você pode trocar divisas entre os membros uma vez que o site dispõe de uma plataforma 
 que põe em contato os membros que partilham da mesma necessidade."
