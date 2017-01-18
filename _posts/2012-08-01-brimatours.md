@@ -1,14 +1,15 @@
 ---
 layout: post
-title: "BrimaTours"
-image: "brimatours.jpg"
-
+title: BrimaTours
+image: brimatours.jpg
 tag: WEB DESIGN | WEB DEVELOPMENT
 link: brimatours.com
 proj-info:
-  Linguagem: PHP, Javascript
+  Linguagem: 'PHP, Javascript'
   Backend Dev: Balduino Neves
   Web Design + Frontend Dev: Hailton Silva
+published: true
+cover: brimatours-1.jpg
 ---
 
 Boavista é uma ilha com uma beleza natural incomparável e com praias maravilhosas.
