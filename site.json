@@ -12,7 +12,7 @@ published: true
       "date"     : "{{ post.date | date: '%B %d, %Y' }}",
       "image"     : "{{ post.image }}",
       "cover"     : "{{ post.cover }}",
-      "content"  : "{{ post.content | escape }}"
+      "content"  : "{{ post.content | markdownify | normalize_whitespace | escape }}"
     } {% if forloop.last %}{% else %},{% endif %}
 {% endfor %}
 ]
