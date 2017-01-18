@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Commurrency"
+title: Commurrency
 image: commurrency.jpg
-
 tag: BRANDING | UI & UX | DEVELOPMENT | IT CONSULTING
 proj-info:
-  Linguagens: PHP, Javascript
+  Linguagens: 'PHP, Javascript'
   UI Design + Desenvolvimento: Hailton Silva
+published: true
+cover-image: commurrency-pages.png
 ---
 
 Uma vez que os Bancos cobram elevadas taxas nas operações cambiais, dois colegas de faculdade, 
@@ -17,4 +18,3 @@ utilizadores a poupar em taxas e comissões.
 
 "Em Commurrency.org você pode trocar divisas entre os membros uma vez que o site dispõe de uma plataforma 
 que põe em contato os membros que partilham da mesma necessidade."
-
