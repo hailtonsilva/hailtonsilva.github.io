@@ -20,5 +20,5 @@ inovadoras de Web Design.
 O Desenvolvimento do próprio site devia refletir a ideologia assente na sua criação, apresentando assim
 os tais elementos inovadores que faziam sentido na altura da sua criação (meados de ~2012).
 
-<!--![Planos PowerToWeb](/images/powertoweb-2.jpg)-->
-<!--![Página e Banners PowerToWeb](/images/powertoweb-3.jpg)-->
+![Planos PowerToWeb](/images/powertoweb-2.jpg)
+![Página e Banners PowerToWeb](/images/powertoweb-3.jpg)
