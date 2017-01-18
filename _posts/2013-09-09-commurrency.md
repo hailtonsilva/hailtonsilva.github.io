@@ -8,6 +8,7 @@ proj-info:
   UI Design + Desenvolvimento: Hailton Silva
 published: true
 cover-image: commurrency-pages.png
+cover: commurrency-pages.png
 ---
 
 Uma vez que os Bancos cobram elevadas taxas nas operações cambiais, dois colegas de faculdade, 
