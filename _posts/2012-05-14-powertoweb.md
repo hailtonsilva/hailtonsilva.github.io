@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "PowerToWeb"
-image: "powertoweb.jpg"
-
+title: PowerToWeb
+image: powertoweb.jpg
 tag: BRANDING | UI & UX | WEB DEVELOPMENT
 proj-info:
-  Linguagens: PHP, Javascript
+  Linguagens: 'PHP, Javascript'
   Backend Admin: Balduino Neves
   Design + Frontend Dev: Hailton Silva
+published: true
+cover: powertoweb-1.jpg
 ---
 
 A Web precisa de uma energia extra. PowerToWeb foi criado seguindo essa ideologia,
