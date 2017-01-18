@@ -11,7 +11,7 @@ published: true
       "url"     : "{{ post.url }}",
       "date"     : "{{ post.date | date: '%B %d, %Y' }}",
       "image"     : "{{ post.image }}",
-      "cover-image"     : "{{ post.cover-image }}",
+      "cover"     : "{{ post.cover }}",
       "content"  : "{{ post.content | markdownify | normalize_whitespace }}"
     } {% if forloop.last %}{% else %},{% endif %}
 {% endfor %}
