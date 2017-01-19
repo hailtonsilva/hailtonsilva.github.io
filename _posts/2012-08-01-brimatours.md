@@ -21,4 +21,4 @@ guiar os visitantes da ilha de forma a aproveitarem ao máximo tudo o que a ilha
 Através do site pode ficar a saber um pouco da História da Ilha e motivos pela qual deve visitar a mesma na
 companhia das pessoas que fazem parte de BrimaTours.
 
-![BrimaTours](/images/brimatours-2.jpg)
+![BrimaTours]({{site.url}}/images/brimatours-2.jpg)
