@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body {% if page.route == "index" %} class="bg-img" {% endif %} >
-    {% include nav.html %}
+  <body>
     {{ content }}
-
-    <!--{% include contact-block.html %}-->
-    {% include footer.html %}
   </body>
 </html>

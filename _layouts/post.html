@@ -2,7 +2,6 @@
 <html>
 {% include head.html %}
 <body>
-  {% include nav.html %}
 
   <div class="container spaced c-post bg-white">
     <div class="proj-name text-center">{{ page.title }}</div>
@@ -33,20 +32,6 @@
     {% endif %}
   </div>
 
-
-  <!--{% include contact-block.html %}
-  <div class="grid">
-    {% for post in site.posts %}
-      <div class="column small-4 bg-red c-teaser">
-        <a class="c-img-w" href="{{ post.url }}">
-          <h2 class="title">{{ post.title }}</h2>
-          <img id="teaser-img" data-href="{{ post.url }}" class="c-img" src="/images/{{ post.image }}" alt="{{ post.title }}">
-        </a>
-      </div>
-    {% endfor %}
-  </div>-->
-
-  {% include footer.html %}
 </body>
 
 </html>
