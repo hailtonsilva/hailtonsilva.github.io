@@ -1,6 +1,7 @@
 ---
 layout: post
 title: PowerToWeb
+meta: A Web precisa de uma energia extra.
 image: powertoweb.jpg
 tag: BRANDING | UI & UX | WEB DEVELOPMENT
 proj-info:

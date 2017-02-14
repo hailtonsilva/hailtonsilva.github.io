@@ -1,6 +1,7 @@
 ---
 layout: post
 title: BrimaTours
+meta: Come discover Boa Vista with us
 image: brimatours.jpg
 tag: WEB DESIGN | WEB DEVELOPMENT
 link: brimatours.com
@@ -12,7 +13,7 @@ published: true
 cover: brimatours-1.jpg
 ---
 
-Boavista é uma ilha com uma beleza natural incomparável e com praias maravilhosas.
+Boa Vista é uma ilha com uma beleza natural incomparável e com praias maravilhosas.
 A beleza natural da ilha faz despertar o espírito aventureiro de qualquer pessoa. BrimaTours surge no sentido de
 guiar os visitantes da ilha de forma a aproveitarem ao máximo tudo o que a ilha tem para oferecer.
 

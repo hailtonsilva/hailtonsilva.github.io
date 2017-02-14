@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Commurrency
+meta: A community for a new world
 image: commurrency.jpg
 tag: BRANDING | UI & UX | DEVELOPMENT | IT CONSULTING
 proj-info:
