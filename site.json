@@ -8,6 +8,7 @@ published: true
     {
       "title"    : "{{ post.title }}",
       "id"     : "{{ post.url }}",
+      "meta"     : "{{ post.meta }}",
       "url"     : "{{ post.url }}",
       "date"     : "{{ post.date | date: '%B %d, %Y' }}",
       "image"     : "{{ post.image }}",
