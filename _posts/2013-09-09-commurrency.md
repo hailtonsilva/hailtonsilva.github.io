@@ -4,6 +4,7 @@ title: Commurrency
 meta: A community for a new world
 image: commurrency.jpg
 tag: BRANDING | UI & UX | DEVELOPMENT | IT CONSULTING
+link: http://commurrency.org
 proj-info:
   Linguagens: 'PHP, Javascript'
   UI Design + Desenvolvimento: Hailton Silva

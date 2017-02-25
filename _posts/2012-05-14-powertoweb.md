@@ -4,6 +4,7 @@ title: PowerToWeb
 meta: A Web precisa de uma energia extra.
 image: powertoweb.jpg
 tag: BRANDING | UI & UX | WEB DEVELOPMENT
+link: http://powertoweb.com
 proj-info:
   Linguagens: 'PHP, Javascript'
   Backend Admin: Balduino Neves

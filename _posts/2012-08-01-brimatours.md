@@ -4,7 +4,7 @@ title: BrimaTours
 meta: Come discover Boa Vista with us
 image: brimatours.jpg
 tag: WEB DESIGN | WEB DEVELOPMENT
-link: brimatours.com
+link: http://brimatours.com
 proj-info:
   Linguagem: 'PHP, Javascript'
   Backend Dev: Balduino Neves
